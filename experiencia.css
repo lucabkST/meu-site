@@ -1,0 +1,170 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu dentro do cabeçalho */
+.menu h1 {
+    margin-bottom: 10px;
+}
+
+#fotoperf {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para os links */
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da lista de experiência */
+.experiencia {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f9; /* Fundo mais claro e suave */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave e sutil */
+}
+
+.experiencia h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333; /* Cor escura para o título */
+    font-weight: 600;
+    text-align: center; /* Alinhamento centralizado do título */
+}
+
+.experiencia ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.experiencia li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+.experiencia li .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin-right: 20px; /* Margem consistente entre o ícone e o texto */
+}
+
+.experiencia li .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1; /* Garante que o conteúdo ocupe o espaço restante */
+}
+
+.experiencia li .titulo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    flex-basis: auto;
+}
+
+
+/* Descrição */
+.experiencia li .descricao {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px; /* Removendo o maior espaço de cima */
+}
+
+/* Efeito de hover */
+.experiencia li:hover {
+    transform: translateY(-5px); /* Levantamento suave no hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra mais forte */
+}
+
+.experiencia li:nth-child(2) .titulo, 
+.experiencia li:nth-child(2) .descricao {
+    margin-left: 0; /* Remover o deslocamento específico da Expedição */
+}
+
+/* Adicionando a cor para o fundo do item dependendo do cargo */
+.experiencia li:nth-child(odd) {
+    background-color: #eaf5ea; /* Fundo suave de verde claro */
+}
+
+.experiencia li:nth-child(even) {
+    background-color: #f9f9f9; /* Fundo neutro para itens pares */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Estilo adicional para melhorar a aparência */
+hr {
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}

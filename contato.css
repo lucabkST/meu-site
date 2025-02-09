@@ -1,0 +1,134 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Fonte limpa e legível */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu dentro do cabeçalho */
+.menu h1 {
+    margin-bottom: 10px;
+}
+
+#fotoperf {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para os links */
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do conteúdo principal */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Estilo da página de contato */
+#contato {
+    background-color: #f4f4f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Informações de contato */
+.informacoes-contato p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Lista de redes sociais com ícones */
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 15px 0;
+    font-size: 20px; /* Aumentando o tamanho do texto para ícones */
+    text-align: center;
+}
+
+ul li a {
+    color: #333;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 24px; /* Aumentando o tamanho dos ícones */
+}
+
+ul li a i {
+    margin-right: 10px; /* Espaçamento entre ícone e texto */
+    font-size: 26px; /* Ajuste no tamanho do ícone */
+}
+
+ul li a:hover {
+    color: #4CAF50;
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Efeito de hover nos ícones */
+ul li a:hover i {
+    color: #45a049; /* Mudando a cor do ícone no hover */
+}
+
+/* Estilos para o rodapé (se necessário) */
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Estilo adicional para melhorar a aparência */
+hr {
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
